@@ -46,6 +46,8 @@ Run the following commands in the `sapetool` directory:
     cmake -B build -G "Visual Studio 18 2026" -A x64
     cmake --build build --config Release
 
+You will find the `sapetool.exe` in the new folder: `sapetool\build\sapetool_artefacts\Release`.
+
 ## REAPER setup
 
 See: `README_original.md`
