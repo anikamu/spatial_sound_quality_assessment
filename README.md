@@ -2,7 +2,11 @@
 
 This repository contains a spatial sound quality assessment project developed as part of the engineer thesis "Multidimensional Evaluation of Spatial Sound Quality Using MUSHRA Tests and SAQI Descriptors" at the Warsaw University of Technology.
 
-It is based on the SAPETool (Spatial Audio Perceptual Evaluation Tool) application created by Tomasz Rudzki (@trsonic), designed for conducting MUSHRA-type listening tests. This version extends the original tool with additional functionality and integrates selected aspects from the SAQI (Spatial Audio Quality Inventory) dictionary [1].
+This project is based on [SAPETool](https://github.com/trsonic/sapetool) (Spatial Audio Perceptual Evaluation Tool) by Tomasz Rudzki (@trsonic).
+
+The original project is licensed under the MIT License.
+
+The application was designed for conducting MUSHRA-type listening tests. This version extends the original tool with additional functionality and integrates selected aspects from the SAQI (Spatial Audio Quality Inventory) dictionary [1].
 
 The application enables real-time preparation and execution of listening tests within the REAPER DAW environment, connected with an intuitive user interface.
 
@@ -128,3 +132,6 @@ Customize labels and descriptions:
 
 ## References
 [1] Lindau A; Erbes V; Lepa S; Maempel H-J; Brinkmann F; Weinzierl S (2014): "A Spatial Audio Quality Inventory for Virtual Acoustic Environments (SAQI)", in: Acta Acustica united with Acustica, 100(5): 984-994
+
+## License
+The original source code is licensed under the MIT License (see [License](LICENSE.txt)). It depends on JUCE, which is a separate project distributed under its own license (GPLv3/AGPLv3 or a commercial license). Distributing compiled binaries that link JUCE must comply with JUCE's licensing terms.
